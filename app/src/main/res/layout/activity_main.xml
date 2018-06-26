@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.witcher.testviewdraghelper.ViewDragLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:text="拖拽view"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:id="@+id/view1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+    <TextView
+        android:text="局部拖拽view"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:id="@+id/view2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+    <TextView
+        android:text="自动返回view"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:id="@+id/view3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+
+</com.witcher.testviewdraghelper.ViewDragLayout>
