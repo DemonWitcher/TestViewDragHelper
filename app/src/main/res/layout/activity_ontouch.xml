@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.witcher.testviewdraghelper.MyViewGroup
+        android:id="@+id/view1"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:background="@color/colorAccent">
+        <com.witcher.testviewdraghelper.MyViewGroup2
+            android:id="@+id/view2"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:background="@color/colorPrimary">
+            <com.witcher.testviewdraghelper.MyView3
+                android:id="@+id/view3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="#349874">
+            </com.witcher.testviewdraghelper.MyView3>
+        </com.witcher.testviewdraghelper.MyViewGroup2>
+    </com.witcher.testviewdraghelper.MyViewGroup>
+</RelativeLayout>

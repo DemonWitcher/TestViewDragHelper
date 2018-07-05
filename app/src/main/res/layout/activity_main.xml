@@ -8,14 +8,22 @@
     android:gravity="center"
     >
 
-    <TextView
-        android:text="拖拽view"
-        android:textColor="#ffffff"
-        android:gravity="center"
-        android:background="@color/colorAccent"
-        android:id="@+id/view1"
-        android:layout_width="80dp"
-        android:layout_height="80dp"/>
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:background="@color/colorPrimary"
+        android:layout_width="120dp"
+        android:layout_height="120dp">
+
+        <TextView
+            android:text="拖拽view"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:background="@color/colorAccent"
+            android:id="@+id/view1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+    </RelativeLayout>
+
     <TextView
         android:text="局部拖拽view"
         android:textColor="#ffffff"
